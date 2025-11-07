@@ -39,7 +39,7 @@ model product {
   updatedAt                DateTime
 }
 
-model session {
+model Session {
   id            String    @id
   shop          String
   state         String
